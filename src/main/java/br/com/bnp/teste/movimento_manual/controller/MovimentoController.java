@@ -36,5 +36,10 @@ public class MovimentoController {
 		
 		return new ResponseEntity<>(HttpStatus.CREATED);
 	}
+	
+	@GetMapping(params = "lancamento=max")
+	public ResponseEntity<Long> getNumeroLancamento() {
+		return new ResponseEntity<Long>(service.getMaxNumLancamento(),HttpStatus.OK);
+	}
 
 }
