@@ -13,6 +13,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import br.com.bnp.teste.movimento_manual.entity.Movimento;
+import br.com.bnp.teste.movimento_manual.entity.MovimentoManual;
 
 @Repository
 @Transactional(readOnly = true)

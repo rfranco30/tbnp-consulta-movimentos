@@ -9,7 +9,7 @@
 		<version>2.3.0.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.fecom</groupId>
+	<groupId>br.com.bnp.test.rfs</groupId>
 	<artifactId>movimento_consulta</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>movimento_consulta</name>
